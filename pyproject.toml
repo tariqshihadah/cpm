@@ -11,8 +11,8 @@ license = {file = "LICENSE"}
 keywords=["safety", "data", "analysis", "highway", "roadway", "hsm", "prediction", "statistics"]
 authors = [
     {name = "Tariq Shihadah", email = "tariq.shihadah@gmail.com"},
-    {name = "Mahdi Rajabi", email = "mahdi.rajabi.96@gmail.com"},
-    {name = "Kim Kolody", email = "kim.kolody@jacobs.com"}
+    {name = "Mahdi Rajabi", email = ""},
+    {name = "Kim Kolody", email = ""}
 ]
 dependencies = [
     "numpy", 
