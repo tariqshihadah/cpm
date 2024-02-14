@@ -1,0 +1,112 @@
+{
+    "sevtype":{
+        "source":"HSM Table 10-3",
+        "keys":[
+            "sevtype"
+        ],
+        "data":{
+            "k":0.013,
+            "a":0.054,
+            "b":0.109,
+            "c":0.145,
+            "o":0.679,
+            "kabc":0.321,
+            "kabco":1.000
+        }
+    },
+    "cshtype":{
+        "source":"HSM Table 10-4",
+        "defs":{
+            "anm":"Animal",
+            "pdc":"Pedalcyclist",
+            "ped":"Pedestrian",
+            "ovt":"Overturned",
+            "ror":"Run-off-Road",
+            "osv":"Other Single-Vehicle",
+            "sv": "Single Vehicle",
+            "ang":"Angle",
+            "ho": "Head-on",
+            "re": "Rear-end",
+            "ss": "Sideswipe",
+            "omv":"Other Multiple-Vehicle",
+            "mv": "Multiple-Vehicle",
+            "all":"All Crash Types"
+        },
+        "keys":[
+            "cshtype",
+            "sevtype"
+        ],
+        "data":{
+            "anm":{
+                "kabc": 0.038,
+                "kabco":0.184,
+                "o":    0.121
+            },
+            "pdc":{
+                "kabc": 0.004,
+                "kabco":0.001,
+                "o":    0.002
+            },
+            "ped":{
+                "kabc": 0.007,
+                "kabco":0.001,
+                "o":    0.003
+            },
+            "ovt":{
+                "kabc": 0.037,
+                "kabco":0.015,
+                "o":    0.025
+            },
+            "ror":{
+                "kabc": 0.545,
+                "kabco":0.505,
+                "o":    0.521
+            },
+            "osv":{
+                "kabc": 0.007,
+                "kabco":0.029,
+                "o":    0.021
+            },
+            "sv":{
+                "kabc": 0.638,
+                "kabco":0.735,
+                "o":    0.693
+            },
+            "ang":{
+                "kabc": 0.100,
+                "kabco":0.072,
+                "o":    0.085
+            },
+            "ho":{
+                "kabc": 0.034,
+                "kabco":0.003,
+                "o":    0.016
+            },
+            "re":{
+                "kabc": 0.164,
+                "kabco":0.122,
+                "o":    0.142
+            },
+            "ss":{
+                "kabc": 0.038,
+                "kabco":0.038,
+                "o":    0.037
+            },
+            "omv":{
+                "kabc": 0.026,
+                "kabco":0.030,
+                "o":    0.027
+            },
+            "mv":{
+                "kabc": 0.362,
+                "kabco":0.265,
+                "o":    0.307
+            },
+            "all":{
+                "kabc": 1.00,
+                "kabco":1.00,
+                "o":    1.00
+            }
+        }
+    }
+}

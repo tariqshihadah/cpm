@@ -1,0 +1,11 @@
+{
+    "source":"Highway Safety Manual 1st Edition, Table 18-15",
+    "levels":["severity"],
+    "keys":["a", "b"],
+    "data":{
+        "kabc":{
+            "a":-0.0376,
+            "b":0.963
+        }
+    }
+}

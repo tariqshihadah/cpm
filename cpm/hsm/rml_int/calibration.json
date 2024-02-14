@@ -1,0 +1,16 @@
+{
+    "source":"NA",
+    "levels":["factype"],
+    "keys":["cf"],
+    "data":{
+        "3st":{
+            "cf": 0.95
+        },
+        "4st":{
+            "cf": 0.65
+        },
+        "4sg":{
+            "cf": 1.00
+        }
+    }
+}

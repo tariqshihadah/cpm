@@ -1,0 +1,78 @@
+{
+    "source":"Highway Safety Manual 1st Edition, Table 12-7",
+    "levels":["factype"],
+    "keys":["cf","N_maj_com","N_min_com","N_maj_ind","N_min_ind","N_maj_res",
+        "N_min_res","N_other","t","k","p_kabc","p_o"],
+    "data":{
+        "2u":{
+            "cf":        1.000,
+            "N_maj_com": 0.158,
+            "N_min_com": 0.050,
+            "N_maj_ind": 0.172,
+            "N_min_ind": 0.023,
+            "N_maj_res": 0.083,
+            "N_min_res": 0.016,
+            "N_other":   0.025,
+            "t":         1.000,
+            "k":         0.810,
+            "p_kabc":    0.323,
+            "p_o":       0.677
+        },
+        "3t":{
+            "cf":        1.000,
+            "N_maj_com": 0.102,
+            "N_min_com": 0.032,
+            "N_maj_ind": 0.110,
+            "N_min_ind": 0.015,
+            "N_maj_res": 0.053,
+            "N_min_res": 0.010,
+            "N_other":   0.016,
+            "t":         1.000,
+            "k":         1.100,
+            "p_kabc":    0.243,
+            "p_o":       0.757
+        },
+        "4u":{
+            "cf":        1.000,
+            "N_maj_com": 0.182,
+            "N_min_com": 0.058,
+            "N_maj_ind": 0.198,
+            "N_min_ind": 0.026,
+            "N_maj_res": 0.096,
+            "N_min_res": 0.018,
+            "N_other":   0.029,
+            "t":         1.172,
+            "k":         0.810,
+            "p_kabc":    0.342,
+            "p_o":       0.658
+        },
+        "4d":{
+            "cf":        1.000,
+            "N_maj_com": 0.033,
+            "N_min_com": 0.011,
+            "N_maj_ind": 0.036,
+            "N_min_ind": 0.005,
+            "N_maj_res": 0.018,
+            "N_min_res": 0.003,
+            "N_other":   0.005,
+            "t":         1.106,
+            "k":         1.390,
+            "p_kabc":    0.284,
+            "p_o":       0.716
+        },
+        "5t":{
+            "cf":        1.000,
+            "N_maj_com": 0.165,
+            "N_min_com": 0.053,
+            "N_maj_ind": 0.181,
+            "N_min_ind": 0.024,
+            "N_maj_res": 0.087,
+            "N_min_res": 0.016,
+            "N_other":   0.027,
+            "t":         1.172,
+            "k":         0.100,
+            "p_kabc":    0.269,
+            "p_o":       0.731
+        }
+    }
+}

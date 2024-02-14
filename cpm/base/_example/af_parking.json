@@ -1,0 +1,77 @@
+{
+    "source":"Highway Safety Manual 1st Edition, Table 12-19",
+    "levels":["factype","parking_type"],
+    "keys":["parking_factor"],
+    "data":{
+        "2u":{
+            "parallel_res":{
+                "parking_factor":1.465
+            },
+            "parallel_com":{
+                "parking_factor":2.074
+            },
+            "angle_res":   {
+                "parking_factor":3.428
+            },
+            "angle_com":   {
+                "parking_factor":4.853
+            }
+        },
+        "3t":{
+            "parallel_res":{
+                "parking_factor":1.465
+            },
+            "parallel_com":{
+                "parking_factor":2.074
+            },
+            "angle_res":   {
+                "parking_factor":3.428
+            },
+            "angle_com":   {
+                "parking_factor":4.853
+            }
+        },
+        "4u":{
+            "parallel_res":{
+                "parking_factor":1.100
+            },
+            "parallel_com":{
+                "parking_factor":1.709
+            },
+            "angle_res":   {
+                "parking_factor":2.574
+            },
+            "angle_com":   {
+                "parking_factor":3.999
+            }
+        },
+        "4d":{
+            "parallel_res":{
+                "parking_factor":1.100
+            },
+            "parallel_com":{
+                "parking_factor":1.709
+            },
+            "angle_res":   {
+                "parking_factor":2.574
+            },
+            "angle_com":   {
+                "parking_factor":3.999
+            }
+        },
+        "5t":{
+            "parallel_res":{
+                "parking_factor":1.100
+            },
+            "parallel_com":{
+                "parking_factor":1.709
+            },
+            "angle_res":   {
+                "parking_factor":2.574
+            },
+            "angle_com":   {
+                "parking_factor":3.999
+            }
+        }
+    }
+}

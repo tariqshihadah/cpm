@@ -1,0 +1,55 @@
+{
+    "source":"Highway Safety Manual 1st Edition, Table 12-10",
+    "levels":["factype"],
+    "keys":["p_re_kabc","p_ho_kabc","p_ang_kabc","p_ss_kabc","p_other_kabc","p_re_o","p_ho_o","p_ang_o","p_ss_o","p_other_o"],
+    "data":{
+        "3st":{
+            "p_re_kabc":   0.421,
+            "p_ho_kabc":   0.045,
+            "p_ang_kabc":  0.343,
+            "p_ss_kabc":   0.126,
+            "p_other_kabc":0.065,
+            "p_re_o":      0.440,
+            "p_ho_o":      0.023,
+            "p_ang_o":     0.262,
+            "p_ss_o":      0.040,
+            "p_other_o":   0.235
+        },
+        "4st":{
+            "p_re_kabc":   0.338,
+            "p_ho_kabc":   0.041,
+            "p_ang_kabc":  0.440,
+            "p_ss_kabc":   0.121,
+            "p_other_kabc":0.060,
+            "p_re_o":      0.374,
+            "p_ho_o":      0.030,
+            "p_ang_o":     0.335,
+            "p_ss_o":      0.044,
+            "p_other_o":   0.217
+        },
+        "3sg":{
+            "p_re_kabc":   0.549,
+            "p_ho_kabc":   0.038,
+            "p_ang_kabc":  0.280,
+            "p_ss_kabc":   0.076,
+            "p_other_kabc":0.057,
+            "p_re_o":      0.546,
+            "p_ho_o":      0.020,
+            "p_ang_o":     0.204,
+            "p_ss_o":      0.032,
+            "p_other_o":   0.198
+        },
+        "4sg":{
+            "p_re_kabc":   0.450,
+            "p_ho_kabc":   0.049,
+            "p_ang_kabc":  0.347,
+            "p_ss_kabc":   0.099,
+            "p_other_kabc":0.055,
+            "p_re_o":      0.483,
+            "p_ho_o":      0.030,
+            "p_ang_o":     0.244,
+            "p_ss_o":      0.032,
+            "p_other_o":   0.211
+        }
+    }
+}

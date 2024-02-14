@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpm"
+version = "0.1.0"
+description = "Crash prediction modeling library"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords=["safety", "data", "analysis", "highway", "roadway", "hsm", "prediction", "statistics"]
+authors = [
+    {name = "Tariq Shihadah", email = "tariq.shihadah@gmail.com"},
+    {name = "Mahdi Rajabi", email = "mahdi.rajabi.96@gmail.com"},
+    {name = "Kim Kolody", email = "kim.kolody@jacobs.com"}
+]
+dependencies = [
+    "numpy", 
+    "matplotlib", 
+    "pandas>=1.1", 
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+]
+dynamic = ["readme"]
+
+[project.urls]
+repository = "https://github.com/tariqshihadah/cpm"
+
+[tool.setuptools.packages.find]
+include = ["cpm*"]
+exclude = ["cpm.tests*"]
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.rst"]}

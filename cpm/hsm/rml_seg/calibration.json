@@ -1,0 +1,13 @@
+{
+    "source":"NA",
+    "levels":["factype"],
+    "keys":["cf"],
+    "data":{
+        "4d":{
+            "cf": 0.74
+        },
+        "4u":{
+            "cf": 1.00
+        }
+    }
+}

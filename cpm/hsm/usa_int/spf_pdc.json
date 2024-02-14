@@ -1,0 +1,23 @@
+{
+    "source":"Highway Safety Manual 1st Edition, Tables 12-17",
+    "levels":["factype"],
+    "keys":["cf","p_pdc"],
+    "data":{
+        "3st":{
+            "cf": 1.00,
+            "p_pdc":0.016
+        },
+        "4st":{
+            "cf": 1.00,
+            "p_pdc":0.018
+        },
+        "3sg":{
+            "cf": 1.00,
+            "p_pdc":0.011
+        },
+        "4sg":{
+            "cf": 1.00,
+            "p_pdc":0.015
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "source":"Highway Safety Manual 1st Edition, Table 18-21",
+    "levels":["crash_type", "severity"],
+    "keys":["a", "b"],
+    "data":{
+        "sv":{
+            "kabc":{
+                "a":-0.0647,
+                "b":-0.0897
+            },
+            "o":{
+                "a":0.00,
+                "b":-0.0840
+            }
+        }
+    }
+}
